@@ -1,0 +1,26 @@
+
+#body{
+  background-color: rgba(198, 216, 223, 0.795);
+  border: solid rgba(198, 216, 223, 0.795);
+ display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px;
+    margin: 150px 400px;
+    border-radius: 30px;
+}
+
+#login-box{
+   /* margin:100px 250px 250px 200px ; */
+    text-align: center;
+}
+
+#accounts-box,#password-box{
+  margin:20px;
+  padding: auto;
+}
+
+#login-button{
+   text-align: center;
+  padding: auto;
+}
