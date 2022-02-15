@@ -1,17 +1,25 @@
 <div id="login-box">
-  <h2 class="outline" style="text-align: center;margin:0px 0px 30px 0px;">登入頁面</h2>
-  <form action="" method="POST">
+  <h2 class="outline" style="text-align: center;margin:0px 0px 30px 0px;font-weight:900;">登入頁面</h2>
+
+  <form action="/" method="POST" id="accountForm" novalidate>
     <div class="input-group input-group-lg" id="accounts-box">
-      <span class="input-group-text" id="inputAcountsGroup-sizing-lg">帳號</span>
-      <input type="text" class="form-control" placeholder="輸入帳號">
+      <label class="input-group-text" id="inputAcountsGroup-sizing-lg">帳號</label>
+      <input type="text" class="form-control" placeholder="請輸入帳號" name="userAccount" id="userAccount"
+        value="{{userAccount}}" required>
     </div>
+    <div class="invalid-feedback">必填</div>
     <div class="input-group input-group-lg" id="password-box">
-      <span class="input-group-text" id="inputPasswordGroup-sizing-lg">密碼</span>
-      <input type="text" class="form-control" placeholder="輸入密碼">
+      <label class="input-group-text" id="inputPasswordGroup-sizing-lg">密碼</label>
+      <input type="password" class="form-control" placeholder="請輸入密碼" name="userPassword" id="userPassword" required>
     </div>
+    <div class="invalid-feedback">必填</div>
+    {{#if alertMsg }}
+    <div id="alertMsg">
+      <h6>{{alertMsg}}</h6>
+    </div>
+    {{/if}}
     <div id="login-button">
-      <button type="submit" class="btn btn-primary">登入</button>
-      <a href="https://www.google.com.tw/" class="btn btn-primary">取消</a>
+      <button type="submit" class="btn btn-primary" id="loginButton">登入</button>
     </div>
   </form>
   <div>
