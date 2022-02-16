@@ -1,18 +1,16 @@
 <div id="login-box">
   <h2 class="outline" style="text-align: center;margin:0px 0px 30px 0px;font-weight:900;">登入頁面</h2>
 
-  <form action="/" method="POST" id="accountForm" novalidate>
+  <form action="/login" method="POST" id="accountForm" novalidate>
     <div class="input-group input-group-lg" id="accounts-box">
       <label class="input-group-text" id="inputAcountsGroup-sizing-lg">帳號</label>
       <input type="text" class="form-control" placeholder="請輸入帳號" name="userAccount" id="userAccount"
         value="{{userAccount}}" required>
     </div>
-    <div class="invalid-feedback">必填</div>
     <div class="input-group input-group-lg" id="password-box">
       <label class="input-group-text" id="inputPasswordGroup-sizing-lg">密碼</label>
       <input type="password" class="form-control" placeholder="請輸入密碼" name="userPassword" id="userPassword" required>
     </div>
-    <div class="invalid-feedback">必填</div>
     {{#if alertMsg }}
     <div id="alertMsg">
       <h6>{{alertMsg}}</h6>
