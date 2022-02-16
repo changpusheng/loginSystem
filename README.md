@@ -1,9 +1,11 @@
 # loginSystem
 簡易的登入系統
-
-<image src="https://user-images.githubusercontent.com/88585009/153750799-140bd198-be6b-47ea-8a48-d995dc2fc6c6.png" style="width:10; height:10;">
-
-
+登入畫面:
+<image src="https://user-images.githubusercontent.com/88585009/154337452-d3bc1c17-d28f-4ae6-9e7c-f7b1014d9655.png" style="width:10; height:10;">
+帳號密碼驗證:
+<image src="https://user-images.githubusercontent.com/88585009/154337528-628f74d2-9895-429e-9afd-c8350f4a4813.png" style="width:10; height:10;">
+登入成功
+<image src="https://user-images.githubusercontent.com/88585009/154337622-202aa850-3b6e-4239-aaa9-2d12b5acbd30.png" style="width:10; height:10;">
 
 環境建置與需求 (prerequisites)
 <ul>
