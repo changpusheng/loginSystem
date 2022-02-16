@@ -31,7 +31,7 @@
 安裝與執行步驟 (installation and execution)
 <ul>
 <li>
-$git clone https://github.com/changpusheng/shortUrl.git
+$git clone https://github.com/changpusheng/loginSystem.git
 </li>
 <li>
 $git cd  shortUrl/
