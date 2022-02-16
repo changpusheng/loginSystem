@@ -42,6 +42,9 @@ $npm init -y
 <li>
 $npm install express express-handlebars nodemon mongoose express-session
 </li>
+ <li>
+$npm run seed
+</li>
 <li>
 $npm run dev
 </li>
@@ -62,5 +65,32 @@ mongoose connected!
 </li>
 </ul>
 
-修改部分:
+預設帳號密碼:
+<ul>
+<li>
+ firstName: 'Tony',
+   email: 'tony@stark.com',
+   password: 'iamironman'
+</li>
+    <li>
+ firstName: 'Steve',
+   email: 'captain@hotmail.com',
+   password: 'icandothisallday'
+</li>
+    <li>
+ firstName: 'Peter',
+   email: 'peter@parker.com',
+   password: 'enajyram'
+</li>
+    <li>
+ firstName: 'Natasha',
+   email: 'natasha@gamil.com',
+   password: '*parol#@$!'
+</li>
+    <li>
+ firstName: 'Nick',
+   email: 'nick@shield.com',
+   password: 'password'
+</li>
+</ul>
 
