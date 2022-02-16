@@ -34,7 +34,7 @@
 $git clone https://github.com/changpusheng/loginSystem.git
 </li>
 <li>
-$git cd  shortUrl/
+$git cd  loginSystem/
 </li>
 <li>
 $npm init -y
