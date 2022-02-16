@@ -1,9 +1,9 @@
 function auth(req, res, next) {
   if (req.session.user) {
-    console.log('authenticated')
+    console.log('驗證成功')
     next();
   } else {
-    console.log('not authenticated')
+    console.log('驗證失敗')
     return res.redirect('/')
   }
 }
